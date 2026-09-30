@@ -15,7 +15,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh 'mvn clean test -Dbrowser=chrome'
+                bat 'mvn clean test -Dbrowser=chrome'
             }
         }
     }
