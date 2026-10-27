@@ -31,8 +31,5 @@ Feature: Travel flight booking
   @negative
   Scenario: Validate that departure and destination must be selected
     When I search for available flights
-    
     Then I should remain on the travel search page
-    
-    
     
